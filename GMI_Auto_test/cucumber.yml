@@ -1,0 +1,7 @@
+default: -r Library/ -r Definitions/ Features
+##/host: http://gmi.com/
+
+#abolaji:
+#	host: http://a.gmi.com/
+
+#bex:

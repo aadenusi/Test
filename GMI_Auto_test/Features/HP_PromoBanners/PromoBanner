@@ -1,0 +1,8 @@
+Feature: Home Page Promotion Banners.
+
+Background: Resize screen size to 320 view
+	Given I am on a 320view
+	Given I am on the GetMeIn Homepage
+
+Scenario: As a user I would like to see an image and event information on promo banners
+		Then I should see a at least one event Image and Content

@@ -1,0 +1,18 @@
+Feature: Promotions modules.
+
+Background: Resize screen size to 320 view
+	Given I am on a 320view
+	Given I am on the GetMeIn Homepage
+
+Scenario: As a user I would like to expand the three event categories
+		When I open Music tickets
+			Then I should see a Music event
+
+Scenario: As a user I would like to expand the three event categories
+		When I open Sports tickets
+			Then I should see a Sport event
+
+#Scenario: As a user I would like to expand the three event categories
+	
+		#When I open Sports tickets
+			#Then I should see Arts &Theatre Tickets
