@@ -37,6 +37,9 @@ class ArtistDetails
 			find(:id, @eventDate1_id )
 		end
 	end
+	edn
+	edn
+	end
 
 	def eventName_isVisible
 		within(:id, @eventsBox_id) do
